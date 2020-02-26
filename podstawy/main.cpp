@@ -2,6 +2,15 @@
 
 using namespace std;
 int main(){
-	cout<<"hello world"<<endl;
+	int stopy;
+	double metry;
+	double przelicznik= 0.3;
+
+	cout<<"Podaj wyokosc w stopach: ";
+	cin>>stopy;
+	metry= stopy * przelicznik;
+	cout<<"\n";
+
+	cout<<stopy<<"stop to jest: "<<metry<<"metrow"<<endl;
 	return 0;
 }
